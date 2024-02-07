@@ -10,7 +10,7 @@ const NavBar = () => {
   const handleClick = () => showNav(!nav);
 
   return (
-    <div className="fixed bg-primary-0 flex justify-between items-center text-white px-4 sm:px-20 shadow-md w-full z-20">
+    <div className="fixed bg-primary-0 flex justify-between items-center text-white px-4 sm:px-12 shadow-md w-full z-20">
       {/* LOGO */}
       <img src={LogoWhite} alt="" className=" w-36 z-20" />
       {/* LISTS */}
@@ -25,13 +25,13 @@ const NavBar = () => {
       {/* BUTTON */}
       <a
         href=""
-        className="hidden md:flex items-center gap-2 border-white border-2 p-2 rounded-md"
+        className="hidden lg:flex items-center gap-2 border-white border-2 p-2 rounded-md"
       >
         <FaPlusSquare className="text-xl" />
         <p>Join Us Now</p>
       </a>
       {/* BURGER MENU */}
-      <div onClick={handleClick} className="text-xl cursor-pointer sm:hidden">
+      <div onClick={handleClick} className="text-xl cursor-pointer md:hidden">
         {!nav ? <GiHamburgerMenu /> : <FaTimes />}
       </div>
       {/* MOBILE NAV */}
