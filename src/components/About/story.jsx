@@ -37,6 +37,22 @@ const Story = () => {
             their journey to a healthier, happier life.
           </p>
         </div>
+        <div className="mt-6 py-12 flex justify-center relative">
+          <div className="relative group">
+            <a
+              href=""
+              className="text-white bg-[#CB0606] py-3 px-5 font-bold text-lg z-20 border-2 border-[#CB0606] relative"
+            >
+              GET IN TOUCH
+            </a>
+            <p
+              href=""
+              className="text-transparent bg-transparent border-2 border-[#CB0606] py-1 px-5 font-bold text-lg absolute top-2 -right-3 z-10 group-hover:right-0 group-hover:-top-1 duration-300"
+            >
+              GET&nbsp;IN&nbsp;TOUCH
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

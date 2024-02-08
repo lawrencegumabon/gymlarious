@@ -34,7 +34,7 @@ const Classes = () => {
             <img
               src={gymclass.image}
               alt=""
-              className="w-80 h-80 object-center object-cover rounded-tr-[10%] rounded-bl-[10%] blur-[1px]"
+              className="w-80 h-80 object-center object-cover rounded-tr-[10%] rounded-bl-[10%]"
             />
             <p className="absolute bottom-4 left-4 text-white font-bold text-3xl ">
               {gymclass.name}
