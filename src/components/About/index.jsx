@@ -6,9 +6,9 @@ import Trainer from "../../assets/weight-lifting.png";
 
 const About = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center px-4">
+    <div className="w-full flex justify-center items-center px-4 py-8">
       <div className="flex flex-col lg:flex-row justify-center items-center max-w-7xl w-full relative">
-        <p className="text-[#CB060620] font-bold text-9xl absolute top-1/2 xl:-translate-x-1/2 -translate-y-1/2">
+        <p className="text-[#CB060620] font-bold text-8xl md:text-9xl absolute top-1/2 xl:-translate-x-1/2 -translate-y-1/2">
           ABOUT US
         </p>
         <div className="z-10 w-full flex justify-center">
@@ -22,7 +22,7 @@ const About = () => {
             smile. Discover the lighter side of fitness with us, because getting
             fit should be as fun as it is rewarding!
           </p>
-          <div className="flex justify-center py-4 items-center gap-20 text-center">
+          <div className="flex justify-center py-4 items-center flex-wrap gap-8 md:gap-20 text-center">
             <div className="flex flex-col justify-center items-center">
               <img src={Trainer} alt="" className="w-16" />
               <p>

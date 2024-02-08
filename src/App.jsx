@@ -1,16 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavBar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Classes from "./components/Classes";
+import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./Pages/Home";
+import AboutPage from "./Pages/About";
 
 function App() {
   return (
     <div className="font-Montserrat">
       <NavBar />
-      <Home />
-      <About />
-      <Classes />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

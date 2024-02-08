@@ -1,22 +1,23 @@
 import React from "react";
 import { useState } from "react";
-import LogoWhite from "../../assets/logo-white.png";
 import { FaPlusSquare } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import LogoWhite from "../../assets/logo-white.png";
 
 const NavBar = () => {
   const [nav, showNav] = useState(false);
   const handleClick = () => showNav(!nav);
 
   return (
-    <div className="fixed bg-primary-0 flex justify-between items-center text-white px-4 sm:px-12 shadow-md w-full z-20">
+    <div className="fixed bg-primary-0 flex justify-between items-center text-white px-4 sm:px-12 shadow-md w-full z-50">
       {/* LOGO */}
       <img src={LogoWhite} alt="" className=" w-36 z-20" />
       {/* LISTS */}
       <ul className="gap-6 hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
+        <CustomLink to="/">Home</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
         <li>Classes</li>
         <li>Pricing</li>
         <li>Schedule</li>
@@ -52,5 +53,17 @@ const NavBar = () => {
     </div>
   );
 };
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <li className={isActive ? "border-b-2" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+}
 
 export default NavBar;

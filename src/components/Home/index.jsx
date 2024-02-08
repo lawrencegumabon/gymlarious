@@ -7,7 +7,7 @@ const Home = () => {
     backgroundRepeat: "no-repeat",
     height: "100vh", // h-screen equivalent
     width: "100%",
-    "background-size": "cover",
+    backgroundSize: "cover",
   };
   return (
     <div style={backgroundImageStyle}>
@@ -23,11 +23,11 @@ const Home = () => {
         <div className="flex relative group ">
           <a
             href=""
-            className="bg-white rounded-full text-center font-bold text-xl py-2 w-full z-10 group-hover:scale-[101%] duration-300"
+            className="bg-white  text-center font-bold text-xl py-2 w-full z-10 group-hover:scale-[101%] duration-300"
           >
             OUR CLASSES
           </a>
-          <div className="bg-transparent text-transparent py-1 rounded-full font-bold text-xl border-2 border-white w-full absolute top-3 left-2 group-hover:top-0 group-hover:left-0 duration-300">
+          <div className="bg-transparent text-transparent py-1  font-bold text-xl border-2 border-white w-full absolute top-3 left-2 group-hover:top-0 group-hover:left-0 duration-300">
             OUR CLASSES
           </div>
         </div>
