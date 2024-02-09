@@ -44,10 +44,10 @@ const NavBar = () => {
       </ul>
       {/* BUTTON */}
       <a
-        href=""
-        className="hidden lg:flex items-center gap-2 border-white border-2 p-2 rounded-md"
+        href="/contact"
+        className="hidden lg:flex items-center gap-2 border-white border-2 p-2 rounded-md group  hover:border-[#CB0606] duration-300"
       >
-        <FaPlusSquare className="text-xl" />
+        <FaPlusSquare className="text-xl group-hover:text-[#CB0606] duration-300" />
         <p>Join Us Now</p>
       </a>
       {/* BURGER MENU */}

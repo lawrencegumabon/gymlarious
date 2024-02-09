@@ -8,7 +8,7 @@ const GymHeader = ({ headerName }) => {
         <p className="flex flex-col items-end justify-end text-white text-2xl font-bold">
           {headerName}
         </p>
-        <img src={Banner} alt="" className="h-40 opacity-[50%]" />
+        <img src={Banner} alt="" className=" h-20 sm:h-40 opacity-[50%]" />
       </div>
     </div>
   );

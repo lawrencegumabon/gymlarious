@@ -45,12 +45,14 @@ const Pricing = () => {
                 className="absolute bottom-5 left-1/2 -translate-x-1/2 z-20
             "
               >
-                <p
-                  onMouseOver={() => setText(price.price)}
-                  onMouseLeave={() => setText(price.name)}
-                  className="bg-white py-2 px-4 font-bold duration-500 cursor-pointer"
-                >
-                  {text === price.price ? text : price.name}
+                <p className="bg-white py-2 px-4 font-bold duration-500 cursor-pointer">
+                  <a
+                    href="/pricing"
+                    onMouseOver={() => setText(price.price)}
+                    onMouseLeave={() => setText(price.name)}
+                  >
+                    {text === price.price ? text : price.name}
+                  </a>
                 </p>
               </div>
               <div className="absolute bottom-3 left-[52%] -translate-x-1/2 ">
