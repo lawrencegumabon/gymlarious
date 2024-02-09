@@ -40,7 +40,7 @@ const Story = () => {
         <div className="mt-6 py-12 flex justify-center relative">
           <div className="relative group">
             <a
-              href="/contact"
+              href="/gymlarious/contact"
               className="text-white bg-[#CB0606] py-3 px-5 font-bold text-lg z-20 border-2 border-[#CB0606] relative"
             >
               GET IN TOUCH

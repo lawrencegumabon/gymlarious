@@ -85,7 +85,7 @@ const SchedulePage = () => {
         <div className="flex justify-center pt-4">
           <div className="relative flex group">
             <a
-              href="/contact"
+              href="/gymlarious/contact"
               className="bg-[#CB0606] text-white py-2 px-4 font-bold z-10"
             >
               START NOW

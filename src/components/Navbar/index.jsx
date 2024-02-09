@@ -23,28 +23,28 @@ const NavBar = () => {
       <img src={LogoWhite} alt="" className=" w-36 z-20" />
       {/* LISTS */}
       <ul className="gap-6 hidden md:flex">
-        <CustomLink onClick={goTop()} to="/">
+        <CustomLink onClick={goTop()} to="/gymlarious/home">
           Home
         </CustomLink>
-        <CustomLink onClick={goTop()} to="/about">
+        <CustomLink onClick={goTop()} to="/gymlarious/about">
           About
         </CustomLink>
-        <CustomLink onClick={goTop()} to="/classes">
+        <CustomLink onClick={goTop()} to="/gymlarious/classes">
           Classes
         </CustomLink>
-        <CustomLink onClick={goTop()} to="/pricing">
+        <CustomLink onClick={goTop()} to="/gymlarious/pricing">
           Pricing
         </CustomLink>
-        <CustomLink onClick={goTop()} to="/schedule">
+        <CustomLink onClick={goTop()} to="/gymlarious/schedule">
           Schedule
         </CustomLink>
-        <CustomLink onClick={goTop()} to="/contact">
+        <CustomLink onClick={goTop()} to="/gymlarious/contact">
           Contact
         </CustomLink>
       </ul>
       {/* BUTTON */}
       <a
-        href="/contact"
+        href="/gymlarious/contact"
         className="hidden lg:flex items-center gap-2 border-white border-2 p-2 rounded-md group  hover:border-[#CB0606] duration-300"
       >
         <FaPlusSquare className="text-xl group-hover:text-[#CB0606] duration-300" />
@@ -64,33 +64,33 @@ const NavBar = () => {
       >
         <li onClick={handleClick}>
           {" "}
-          <Link to="/" onClick={goTop()}>
+          <Link to="/gymlarious/home" onClick={goTop()}>
             Home
           </Link>
         </li>
         <li onClick={handleClick}>
-          <Link to="/about" onClick={goTop()}>
+          <Link to="/gymlarious/about" onClick={goTop()}>
             About
           </Link>
         </li>
         <li onClick={handleClick}>
           {" "}
-          <Link to="/classes" onClick={goTop()}>
+          <Link to="/gymlarious/classes" onClick={goTop()}>
             Classes
           </Link>
         </li>
         <li onClick={handleClick}>
-          <Link to="/pricing" onClick={goTop()}>
+          <Link to="/gymlarious/pricing" onClick={goTop()}>
             Pricing
           </Link>
         </li>
         <li onClick={handleClick}>
-          <Link to="/schedule" onClick={goTop()}>
+          <Link to="/gymlarious/schedule" onClick={goTop()}>
             Schedule
           </Link>
         </li>
         <li onClick={handleClick}>
-          <Link to="/contact" onClick={goTop()}>
+          <Link to="/gymlarious/contact" onClick={goTop()}>
             Contact
           </Link>
         </li>

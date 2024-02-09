@@ -47,7 +47,7 @@ const Pricing = () => {
               >
                 <p className="bg-white py-2 px-4 font-bold duration-500 cursor-pointer">
                   <a
-                    href="/pricing"
+                    href="/gymlarious/pricing"
                     onMouseOver={() => setText(price.price)}
                     onMouseLeave={() => setText(price.name)}
                   >

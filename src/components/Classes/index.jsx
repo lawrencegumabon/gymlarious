@@ -26,7 +26,10 @@ const Classes = () => {
   return (
     <div className="bg-[#202020] px-4 py-12 ">
       <div className="text-center text-white pb-6">
-        <a href="/classes" className="font-bold italic text-2xl underline">
+        <a
+          href="/gymlarious/classes"
+          className="font-bold italic text-2xl underline"
+        >
           GYM CLASSES
         </a>
         <p>Be part of our fun community</p>

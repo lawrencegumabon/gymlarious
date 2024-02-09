@@ -14,12 +14,12 @@ function App() {
     <div className="font-Montserrat">
       <NavBar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/classes" element={<ClassesPage />} />
-        <Route path="/pricing" element={<PricingPage />} />
-        <Route path="/schedule" element={<SchedulePage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/gymlarious/home" element={<HomePage />} />
+        <Route path="/gymlarious/about" element={<AboutPage />} />
+        <Route path="/gymlarious/classes" element={<ClassesPage />} />
+        <Route path="/gymlarious/pricing" element={<PricingPage />} />
+        <Route path="/gymlarious/schedule" element={<SchedulePage />} />
+        <Route path="/gymlarious/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </div>

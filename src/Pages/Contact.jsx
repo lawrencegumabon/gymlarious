@@ -68,7 +68,7 @@ const ContactPage = () => {
               </div>
             </form>
             <div
-              action="/"
+              action="/gymlarious"
               className="border-[#202020] border-2 flex flex-col items-center w-full p-8 absolute -left-3 -bottom-3 z-0"
             >
               <p className="pb-4 text-white font-bold text-2xl text-left w-full">
