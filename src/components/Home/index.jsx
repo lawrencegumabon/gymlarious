@@ -22,7 +22,7 @@ const Home = () => {
         </h2>
         <div className="flex relative group ">
           <a
-            href="/gymlarious/contact"
+            href="/contact"
             className="bg-white  text-center font-bold text-xl py-2 w-full z-10 group-hover:scale-[101%] duration-300"
           >
             OUR CLASSES

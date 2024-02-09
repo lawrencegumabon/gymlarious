@@ -70,7 +70,7 @@ const PricingPage = () => {
                 </ul>
                 <div className="relative flex group">
                   <a
-                    href="/gymlarious/contact"
+                    href="/contact"
                     className="bg-[#CB0606] text-white py-2 px-4 font-bold z-10"
                   >
                     Purchase now

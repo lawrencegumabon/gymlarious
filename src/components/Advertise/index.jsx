@@ -17,7 +17,7 @@ const Advertise = () => {
           </div>
           <div className="relative flex group">
             <a
-              href="/gymlarious/contact"
+              href="/contact"
               className="bg-[#CB0606] text-white py-4 px-6 text-xl font-bold  z-20"
             >
               JOIN US
